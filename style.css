@@ -63,3 +63,32 @@ a {
 	padding: 10px;
     border-radius: 10px;
 }
+.donate{
+   position: fixed;
+   bottom: 0px;
+   right: 10px;
+   background: #42b6f5;
+   border-radius: 2px;
+   font-size: 10px;
+  padding: 5px 5px;
+
+}
+
+#donatelink{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
