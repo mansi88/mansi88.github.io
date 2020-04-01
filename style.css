@@ -7,9 +7,10 @@ body {
 }
 
 h1 {
-	color: white;
-	font-size: 30px;
+	color: #0F314E;
+	font-size: 50px;
 	font-weight: lighter;
+	letter-spacing: 3px;
 }
 
 .button{
@@ -39,6 +40,22 @@ a {
 	align-items: center;
 	padding: 10px;
     border-radius: 10px;
+}
+
+h1:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    color: #fff;
+    animation: animate 8s linear;
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
 }
 
 .whatsapp-share-button {
@@ -76,4 +93,10 @@ a {
 
 #donatelink{
 	color: white;
+}
+
+#logo{
+	width: 20%;
+	top: 0;
+	position: fixed;
 }
